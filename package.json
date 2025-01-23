@@ -1,11 +1,13 @@
 {
   "name": "expedia-tests",
   "version": "1.0.0",
-  "description": "",
+  "description": "test code example for the Expedia website",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "playwright test"
+  },
   "keywords": [],
-  "author": "",
+  "author": "Ihor Kovtun",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.49.1",
